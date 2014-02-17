@@ -1,0 +1,1 @@
+default['elte']['szem'] = "hello"

@@ -1,2 +1,13 @@
 node_modules/*
 .DS_Store
+examples/elte_tech_chef_demo/.idea/.name
+examples/elte_tech_chef_demo/.idea/elte_tech_chef_demo.iml
+examples/elte_tech_chef_demo/.idea/encodings.xml
+examples/elte_tech_chef_demo/.idea/misc.xml
+examples/elte_tech_chef_demo/.idea/modules.xml
+examples/elte_tech_chef_demo/.idea/scopes/scope_settings.xml
+examples/elte_tech_chef_demo/.idea/vcs.xml
+examples/elte_tech_chef_demo/.idea/workspace.xml
+examples/elte_tech_chef_demo/cookbooks/elte_teszt/.vagrant/machines/default/virtualbox/action_provision
+examples/elte_tech_chef_demo/cookbooks/elte_teszt/.vagrant/machines/default/virtualbox/action_set_name
+examples/elte_tech_chef_demo/cookbooks/elte_teszt/.vagrant/machines/default/virtualbox/id

@@ -1,0 +1,20 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.box = "wheezy64"
+  config.vm.hostname = "eltedemo"
+
+
+  config.vm.provider :virtualbox do |vb|
+    vb.customize ["modifyvm", :id, "--memory", "384"]
+  end
+
+  config.vm.provision :chef_solo do |chef|
+    chef.cookbooks_path = ".."
+    chef.run_list = [
+        "elte_teszt::default"
+    ]
+  end
+end
+
