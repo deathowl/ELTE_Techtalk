@@ -1,0 +1,88 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "e3d0a0391125a7113c3312147148f40c",
+    "packages": [
+        {
+            "name": "emgiezet/errbit-php",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/emgiezet/errbitPHP.git",
+                "reference": "f67bbf284d8640f4f0573dfe1c33dab8d1e0f9f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/emgiezet/errbitPHP/zipball/f67bbf284d8640f4f0573dfe1c33dab8d1e0f9f9",
+                "reference": "f67bbf284d8640f4f0573dfe1c33dab8d1e0f9f9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "replace": {
+                "flippa-official/errbit-php": "dev-master",
+                "nodrew/php-airbrake": "dev-master"
+            },
+            "require-dev": {
+                "mockery/mockery": "dev-master",
+                "phpunit/phpcov": "2.0.*@dev",
+                "phpunit/phpunit": "3.7.*",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Errbit\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "flippa"
+                },
+                {
+                    "name": "emgiezet"
+                },
+                {
+                    "name": "karolsojko"
+                }
+            ],
+            "description": "errbit/airbrake integration with php with phpcs-2",
+            "homepage": "http://github.com/emgiezet/errbitPHP",
+            "keywords": [
+                "airbrake",
+                "errbit",
+                "errbit php",
+                "error tracking"
+            ],
+            "time": "2014-01-15 09:09:59"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}

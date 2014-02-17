@@ -1,0 +1,13 @@
+{
+    "name": "deathowl/elte_tech_errbit_demo",
+    "description": "Demo for ErrbitPHP",
+    "require": {
+        "emgiezet/errbit-php": "1.0.2"
+    },
+    "authors": [
+        {
+            "name": "deathowl",
+            "email": "csergo.balint@ustream.tv"
+        }
+    ]
+}
